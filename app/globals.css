@@ -153,6 +153,16 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .box {
+    @apply size-28 bg-yellow-300 rounded-full;
+  }
 
   .border-grid {
     @apply border-border/50 dark:border-border border-dashed;
